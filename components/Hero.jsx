@@ -29,12 +29,11 @@ const Hero = () => {
                 <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
                     <Link href='/contact'>
                     <Button className='mr-2'>
-                        Contact me <Send size={18}/>
+                        Contact me <Send size={18} className='ml-2'/>
                         </Button>
                     <Button variant='secondary' className='mr-2'>
                         Download CV 
-                        <Download size={18}/>
-                        <Send size={18}/>
+                        <Download size={18} className='ml-2'/>
                     </Button>
                     </Link>
                 </div>
@@ -70,7 +69,7 @@ const Hero = () => {
                     <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2'></div>
                 <DevImg 
                 containerStyles='bg-hero_shape w-[510px] w-[462px] bg-no-repeat relative bg-bottom' 
-                // imgSrc=''
+                imgSrc='/hero/clavino-pro.jpg'
                 />
                 </div>
             </div>
