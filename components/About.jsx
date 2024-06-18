@@ -95,7 +95,7 @@ const skillData = [
             },
             {
                 imgPath: '/about/figma.svg',
-            },,
+            },
             {
                 imgPath: '/about/notion.svg',
             },
