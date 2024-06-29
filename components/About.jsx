@@ -204,9 +204,9 @@ const About = () => {
                             </div>
                         </TabsContent>
                         {/* Skills */}
-                        <TabsContent value='skills'> Skills Info 
+                        <TabsContent value='skills'>
                         <div className='text-center xl:text-left'>
-                            <h3 className='h3 mb-8'> Tools i use everyday </h3>
+                            <h3 className='h3 mb-8'> What i use everyday </h3>
                             {/* skills */}
                             <div className='mb-16'>
                                 <h4 className='text'>Skills</h4>
@@ -218,7 +218,7 @@ const About = () => {
                                             const {name} = item;
                                             return (
                                              <div 
-                                             className='w-2/4 text-center xl:text-left mx-auto xl mx-0' 
+                                             className='w-full xl:w-2/4 text-center xl:text-left mx-auto xl:mx-0' 
                                              key={index}
                                              >
                                                 <div className='font-medium'>{name}</div>
