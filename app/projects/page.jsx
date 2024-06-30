@@ -1,9 +1,8 @@
 import React from 'react'
 
 const Projects = () => {
-  return (
-    <div>Projects Page</div>
-  )
+  return <section></section>
+  
 }
 
 export default Projects
